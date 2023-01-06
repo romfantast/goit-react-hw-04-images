@@ -24,7 +24,7 @@ const App = () => {
   const bottomRef = useRef(null);
 
   useEffect(() => {
-    if (query === '') {
+    if (query  === '') {
       return;
     }
     setStatus(FETCH_STATUS.Pending);

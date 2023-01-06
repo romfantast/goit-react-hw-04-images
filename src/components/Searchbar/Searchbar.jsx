@@ -12,7 +12,7 @@ export const Searchbar = ({ formSubmitHandler }) => {
 
   const handlerSubmitForm = e => {
     e.preventDefault();
-    formSubmitHandler(value);
+    formSubmitHandler(value.trim());
     setValue('');
   };
   return (
